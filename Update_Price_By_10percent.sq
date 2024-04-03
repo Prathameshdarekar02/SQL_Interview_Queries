@@ -1,0 +1,6 @@
+-- Question : How do you update records in a table named "Products" to increase the price by 10% for all items?
+
+-- Update statement to increase price by 10%
+UPDATE Products1
+-- Set the new price to 10% more than the current price
+SET price = price * 1.1;
